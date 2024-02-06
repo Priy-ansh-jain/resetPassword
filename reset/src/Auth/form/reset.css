@@ -1,0 +1,118 @@
+/*  */
+/* SignUp form .css */
+
+.create {
+  text-align: center;
+  color: rgb(19, 82, 124);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-items: center;
+}
+
+.eye {
+  position: absolute;
+right: 0;
+top: 19px
+
+}
+.password_input {
+  position: relative;
+width: 350px;
+align-items: center;
+}
+.error-message{
+    font-size: 10px;
+    color: rgb(153, 45, 45);
+}
+.strength-message{
+    font-size: 12px;
+    color: rgb(58, 117, 151);
+    padding-top: 10px;
+}
+
+.create_butt button {
+  padding: 12px 85px;
+  color: white;
+  background-color: rgb(14, 52, 80);
+  cursor: pointer;
+}
+.create_butt button:hover {
+  border-style: solid black;
+  background-color: rgb(30, 126, 190);
+}
+
+/*     sign-in .css */
+
+.Signin {
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.signin_form {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+.signin_form input {
+  padding: 15px;
+  width: 100%;
+  /* padding-left: 100px; */
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-style: solid 1px;
+  border-color: whitesmoke;
+}
+
+.first_form2_part {
+  text-align: left;
+}
+.second_form2_part {
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+.create_butt2 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.create_butt2 button {
+  padding: 12px 65px;
+  color: white;
+  background-color: rgb(14, 52, 80);
+  cursor: pointer;
+  font-size: 15px;
+}
+.create_butt2 button:hover {
+  color: rgb(14, 69, 95);
+  background-color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-color: rgb(14, 69, 95);
+  transition: all 0.3s ease-in-out;
+}
+.second_form2_part h5 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: rgb(18, 55, 85);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.second_form2_part li {
+  color: grey;
+  padding-left: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.second_form2_part p {
+  color: grey;
+}
+.create_butt2 a {
+  color: grey;
+}
+.lableee {
+  display: flex;
+  justify-content: space-between;
+}
+.error {
+  color: red;
+}
